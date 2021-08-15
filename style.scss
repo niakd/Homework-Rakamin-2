@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Inter;
+    src: url(./Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url(./Heebo/Heebo-VariableFont_wght.ttf);
+}
+
+body {
+    //position: relative;
+    height: 200vh;
+    margin: 0;
+}
+
+.aboutMe {
+    font-family: Heebo;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding: 150px;
+    //position: absolute;
+
+    h1 {
+        font-size: 44px;
+        font-weight: bold;
+        line-height: 60px;
+        color:#21243D;
+        width: 80%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 23px;
+        color: #21243D;
+        width: 80%;
+    }
+
+    img {  
+        width: 243px;
+        border-radius: 50%;
+    }
+}
+
+.bio {
+    font-family: Inter;
+    background-color: #EDF7FA;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 0px 150px 0px 150px;
+    margin-top: 0;
+
+    h2 {
+        margin-top: 12px;
+        margin-bottom: 0px;
+        color: #136223;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .contact {
+        width: 50%;
+        
+        p {
+            font-size: 14px;
+            color: #0C0000;
+            line-height: 19px;
+            letter-spacing: 0.05em;
+        }
+        
+    }
+
+    .education {
+    
+        padding: 0 0 40px 0;
+
+        h3 {
+            font-size: 14px;
+            color: #000000;
+        }
+
+        .edu_tahun {
+            display: flex;
+            font-size: 12px;
+            justify-content: flex-start;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        ul {
+            font-size: 12px;
+            color: #52575C;
+            margin: 0;
+            padding: 0 0 0 14px;
+        }
+    }
+
+
+}
+
+.experience {
+
+    font-family: Heebo;
+    background-color: #FFFFFF;
+    padding: 0px 150px 0px 150px;
+    margin-top: 0;
+    
+    h2 {
+        font-family: Inter;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        color: #136223;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .project {
+
+        display: flex;
+        border-bottom: 1px solid #E0E0E0;
+        justify-content: space-between;
+        align-content: center;
+
+        img {
+            width: 246px;
+            height: 180px;
+            border-radius: 6px;
+            align-self: center;
+        }
+        .project_des {
+
+            width: 500px;
+            height: 250px;
+
+            h1 {
+                font-size: 30px;
+                color: #21243D;
+                margin-bottom: 0;
+            }
+
+            span {
+                display: flex;
+                justify-content: flex-start;
+                margin-left: 0;
+                
+                .tahun {
+                    color: #FFFFFF;
+                    background-color: #142850;
+                    font-size: 16px;
+                    width: 62px;
+                    height: 24px;
+                    border-radius: 16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    align-items: center;
+
+    p {
+        font-family: Heebo;
+        font-size: 14px;
+        color: #21243D;
+    }
+}

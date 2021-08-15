@@ -1,0 +1,199 @@
+@font-face {
+  font-family: Inter;
+  src: url(./Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+  font-family: Heebo;
+  src: url(./Heebo/Heebo-VariableFont_wght.ttf);
+}
+
+body {
+  height: 200vh;
+  margin: 0;
+}
+
+.aboutMe {
+  font-family: Heebo;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+  padding: 150px;
+}
+
+.aboutMe h1 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #21243D;
+  width: 80%;
+}
+
+.aboutMe p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243D;
+  width: 80%;
+}
+
+.aboutMe img {
+  width: 243px;
+  border-radius: 50%;
+}
+
+.bio {
+  font-family: Inter;
+  background-color: #EDF7FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: left;
+  padding: 0px 150px 0px 150px;
+  margin-top: 0;
+}
+
+.bio h2 {
+  margin-top: 12px;
+  margin-bottom: 0px;
+  color: #136223;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.bio .contact {
+  width: 50%;
+}
+
+.bio .contact p {
+  font-size: 14px;
+  color: #0C0000;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+
+.bio .education {
+  padding: 0 0 40px 0;
+}
+
+.bio .education h3 {
+  font-size: 14px;
+  color: #000000;
+}
+
+.bio .education .edu_tahun {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #000000;
+  font-weight: bold;
+}
+
+.bio .education ul {
+  font-size: 12px;
+  color: #52575C;
+  margin: 0;
+  padding: 0 0 0 14px;
+}
+
+.experience {
+  font-family: Heebo;
+  background-color: #FFFFFF;
+  padding: 0px 150px 0px 150px;
+  margin-top: 0;
+}
+
+.experience h2 {
+  font-family: Inter;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #136223;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.experience .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #E0E0E0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.experience .project img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.experience .project .project_des {
+  width: 500px;
+  height: 250px;
+}
+
+.experience .project .project_des h1 {
+  font-size: 30px;
+  color: #21243D;
+  margin-bottom: 0;
+}
+
+.experience .project .project_des span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 0;
+}
+
+.experience .project .project_des span .tahun {
+  color: #FFFFFF;
+  background-color: #142850;
+  font-size: 16px;
+  width: 62px;
+  height: 24px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer p {
+  font-family: Heebo;
+  font-size: 14px;
+  color: #21243D;
+}
+/*# sourceMappingURL=style.css.map */
